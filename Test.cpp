@@ -123,12 +123,12 @@ TEST_CASE("Comparison Operators"){
 
 
 /*
-*Operator name 	Syntax 	     	          Prototype examples
-*                               Inside class definition 	Outside class definition
-*pre-increment 	    ++a 	 	T& T::operator++(); 	    T& operator++(T& a);
-*pre-decrement 	    --a 	 	T& T::operator--(); 	    T& operator--(T& a);
-*post-increment 	a++ 	 	T T::operator++(int); 	    T operator++(T& a, int);
-*post-decrement 	a-- 	 	T T::operator--(int); 	    T operator--(T& a, int);
+*Operator name 	        Syntax 	     	          Prototype examples
+*                                   Inside class definition 	Outside class definition
+*pre-increment 	        ++a 	 	T& T::operator++(); 	    T& operator++(T& a);
+*pre-decrement 	        --a 	 	T& T::operator--(); 	    T& operator--(T& a);
+*post-increment 	    a++ 	 	T T::operator++(int); 	    T operator++(T& a, int);
+*post-decrement 	    a-- 	 	T T::operator--(int); 	    T operator--(T& a, int);
 */
 
 TEST_CASE("Operators check: ++a, a++, --a, a--"){
